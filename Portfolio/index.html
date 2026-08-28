@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luwie Regaspi — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="trace"><div class="trace-fill" id="traceFill"></div></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand"><span class="led"></span>Luwie Regaspi<span class="dim">.dev</span></div>
+    <div class="nav-right">
+      <nav class="navlinks">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#certs">certs</a>
+        <a href="#blog">writing</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="thumb" id="themeThumb">☀</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" id="hero" data-section>
+    <div class="node" id="node-hero"></div>
+    <div class="hero-grid">
+      <div class="hero-text">
+        <div class="status-pill reveal"><span class="led"></span><span class="mono" style="color:var(--muted)">Basac, Zamboanguita, Negros Oriental — Open to internships</span></div>
+        <h1 class="reveal">Building things at the <span class="accent">hardware-to-web</span> edge.</h1>
+        <svg class="hero-trace reveal" viewBox="0 0 300 10" preserveAspectRatio="none"><path d="M0,5 H90 V2 H180 V8 H300"/></svg>
+        <p class="lede reveal">I'm Luwie Regaspi, a fourth-year BSIT student who got here by fixing machines before I ever wrote a line of code — now I build responsive, well-structured websites and I'm sharpening my fundamentals in Python and data structures along the way.</p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-solid">View Projects →</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-meta reveal">
+          <div><span class="num">4th Yr</span><span class="lab">BSIT, Asian College</span></div>
+          <div><span class="num">8</span><span class="lab">Certifications Earned</span></div>
+          <div><span class="num">NC II</span><span class="lab">Computer Systems Servicing</span></div>
+        </div>
+      </div>
+      <div class="device reveal">
+        <div class="device-frame">
+          <div class="corner c-tl"></div><div class="corner c-tr"></div><div class="corner c-bl"></div><div class="corner c-br"></div>
+          <div class="shot"><img src="images/profile.jpg" alt="Portrait of Luwie Regaspi"></div>
+        </div>
+        <div class="device-plate">
+          <span>UNIT / L.REGASPI</span>
+          <span class="avail"><span class="led"></span>Available</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" data-section>
+    <div class="node" id="node-about"></div>
+    <div class="divider"><span class="chip">01 · About</span><span class="seg"></span></div>
+    <h2 class="section-title reveal">From troubleshooting hardware to shipping interfaces.</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>My path into web development didn't start with a browser — it started with a screwdriver. Before I wrote HTML, I was already comfortable opening up a machine, diagnosing what was wrong, and putting it back together properly. That habit of methodical troubleshooting is still how I approach a bug today.</p>
+        <p>I'm currently finishing my BSIT degree while building out my front-end and programming fundamentals through self-directed coursework. I care about writing code that's readable and interfaces that behave the way people expect — nothing flashy for its own sake.</p>
+        <p>I'm actively looking for an internship or entry-level role where I can put these fundamentals to work on a real team.</p>
+      </div>
+      <div class="log reveal">
+        <div class="item">
+          <div class="when">2023 — present</div>
+          <h4>BS Information Technology</h4>
+          <div class="status">Asian College — 4th Year, currently enrolled</div>
+        </div>
+        <div class="item">
+          <div class="when">completed</div>
+          <h4>Senior High School</h4>
+          <div class="status">Santiago Delmo Memorial High School</div>
+        </div>
+        <div class="item">
+          <div class="when">completed · grade 10</div>
+          <h4>Junior High School</h4>
+          <div class="status">Sangley Point National High School</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" data-section>
+    <div class="node" id="node-skills"></div>
+    <div class="divider"><span class="chip">02 · Skills</span><span class="seg"></span></div>
+    <h2 class="section-title reveal">What I build with.</h2>
+    <div class="skill-cols reveal">
+      <div class="skill-card">
+        <h4>Web Development</h4>
+        <ul>
+          <li><i class="sk-icon devicon-html5-plain colored"></i><span class="sk-name">HTML</span><span>Structure</span></li>
+          <li><i class="sk-icon devicon-css3-plain colored"></i><span class="sk-name">CSS</span><span>Styling</span></li>
+          <li><i class="sk-icon devicon-javascript-plain colored"></i><span class="sk-name">JavaScript</span><span>Interactivity</span></li>
+          <li><i class="sk-icon devicon-bootstrap-plain colored"></i><span class="sk-name">Responsive Design</span><span>Mobile-first</span></li>
+          <li><i class="sk-icon devicon-php-plain colored"></i><span class="sk-name">PHP</span><span>Simplilearn</span></li>
+          <li><i class="sk-icon devicon-nodejs-plain colored"></i><span class="sk-name">Node.js</span><span>Exploring</span></li>
+          <li><i class="sk-icon devicon-react-original colored"></i><span class="sk-name">React</span><span>Exploring</span></li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h4>Programming</h4>
+        <ul>
+          <li><i class="sk-icon devicon-python-plain colored"></i><span class="sk-name">Python</span><span>Fundamentals</span></li>
+          <li><i class="sk-icon devicon-python-plain colored"></i><span class="sk-name">Algorithms</span><span>Practice</span></li>
+          <li><i class="sk-icon devicon-python-plain colored"></i><span class="sk-name">Data Structures</span><span>Practice</span></li>
+          <li><i class="sk-icon devicon-google-plain colored"></i><span class="sk-name">Basic SEO</span><span>Content</span></li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h4>IT & Tools</h4>
+        <ul>
+          <li><i class="sk-icon devicon-linux-plain colored"></i><span class="sk-name">Hardware Troubleshooting</span><span>NC II</span></li>
+          <li><i class="sk-icon devicon-windows8-original colored"></i><span class="sk-name">System Installation</span><span>NC II</span></li>
+          <li><i class="sk-icon devicon-cisco-line colored"></i><span class="sk-name">Networking Basics</span><span>Cisco</span></li>
+          <li><i class="sk-icon devicon-office365-plain colored"></i><span class="sk-name">MS Office</span><span>Word / Excel / PPT</span></li>
+          <li><i class="sk-icon devicon-slack-plain colored"></i><span class="sk-name">Teamwork</span><span>Soft skill</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" data-section>
+    <div class="node" id="node-projects"></div>
+    <div class="divider"><span class="chip">03 · Projects</span><span class="seg"></span></div>
+    <h2 class="section-title reveal">Selected work.</h2>
+    <div class="proj-grid">
+      <div class="proj-card reveal">
+        <div class="proj-media clickable" data-full="images/project-portfolio-preview.jpg" data-cap="This portfolio site — responsive build with dark/light mode and scroll animations">
+          <img src="images/project-portfolio-preview.jpg" alt="Screenshot of this portfolio site">
+        </div>
+        <div class="proj-body">
+          <div class="pnum">BUILD 01</div>
+          <h4>This Portfolio Site</h4>
+          <p>The responsive, animated site you're looking at right now — hand-built with HTML, CSS and JavaScript, including a dark/light mode toggle, scroll-triggered reveals, and a working contact form.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Responsive</span></div>
+        </div>
+      </div>
+      <div class="proj-card reveal">
+        <div class="proj-media">
+          <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="250" fill="var(--panel-2)"/>
+            <rect x="0" y="0" width="400" height="30" fill="var(--panel)"/>
+            <circle cx="20" cy="15" r="4" fill="var(--line-strong)"/>
+            <circle cx="34" cy="15" r="4" fill="var(--line-strong)"/>
+            <circle cx="48" cy="15" r="4" fill="var(--trace)"/>
+            <text x="70" y="19" font-family="IBM Plex Mono, monospace" font-size="10" fill="var(--muted)">algorithms.py</text>
+            <g font-family="IBM Plex Mono, monospace" font-size="12">
+              <text x="26" y="62"><tspan fill="var(--muted)">def</tspan><tspan fill="var(--trace)"> binary_search</tspan><tspan fill="var(--ink)" opacity="0.55">(arr, target):</tspan></text>
+              <text x="46" y="86" fill="var(--ink)" opacity="0.55">low, high = 0, len(arr) - 1</text>
+              <text x="46" y="110"><tspan fill="var(--muted)">while</tspan><tspan fill="var(--ink)" opacity="0.55"> low &lt;= high:</tspan></text>
+              <text x="66" y="134" fill="var(--ink)" opacity="0.55">mid = (low + high) // 2</text>
+              <text x="66" y="158"><tspan fill="var(--muted)">if</tspan><tspan fill="var(--ink)" opacity="0.55"> arr[mid] == target:</tspan></text>
+              <text x="86" y="182"><tspan fill="var(--signal)">return</tspan><tspan fill="var(--ink)" opacity="0.55"> mid</tspan></text>
+            </g>
+            <rect x="150" y="171" width="7" height="14" fill="var(--trace)" opacity="0.85"/>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <div class="pnum">BUILD 02</div>
+          <h4>Python Algorithms Practice</h4>
+          <p>Exercises solving classic data-structure and algorithm problems in Python — binary search, sorting, traversal — built while working through core programming fundamentals.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">DSA</span></div>
+        </div>
+      </div>
+      <div class="proj-card reveal">
+        <div class="proj-media">
+          <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="250" fill="var(--panel-2)"/>
+            <circle cx="200" cy="132" r="86" fill="none" stroke="var(--line-strong)" stroke-width="2"/>
+            <path d="M 126 175 A 86 86 0 0 1 274 175" fill="none" stroke="var(--trace)" stroke-width="4" stroke-linecap="round"/>
+            <g stroke="var(--line-strong)" stroke-width="2">
+              <line x1="200" y1="46" x2="200" y2="58"/>
+              <line x1="272" y1="86" x2="262" y2="94"/>
+              <line x1="128" y1="86" x2="138" y2="94"/>
+            </g>
+            <line x1="200" y1="132" x2="238" y2="82" stroke="var(--signal)" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="200" cy="132" r="7" fill="var(--ink)"/>
+            <text x="200" y="222" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1" fill="var(--muted)">DIAGNOSTIC READOUT</text>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <div class="pnum">BUILD 03</div>
+          <h4>PC Diagnostics Reference</h4>
+          <p>A quick-reference guide to common hardware troubleshooting steps and checks, drawing directly on NC II Computer Systems Servicing training.</p>
+          <div class="tags"><span class="tag">Hardware</span><span class="tag">IT Support</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="note reveal">Build 01 is live and real — 02 and 03 are drafted around your certifications and practice work. Swap in real repos and links whenever you're ready.</p>
+  </section>
+
+  <section id="certs" data-section>
+    <div class="node" id="node-certs"></div>
+    <div class="divider"><span class="chip">04 · Certifications</span><span class="seg"></span></div>
+    <h2 class="section-title reveal">Verified learning.</h2>
+    <div class="cert-grid reveal">
+      <div class="cert" data-full="images/cert-ncii.jpg" data-cap="National Certificate II — Computer Systems Servicing · TESDA">
+        <div class="thumb"><img src="images/cert-ncii.jpg" alt="National Certificate II in Computer Systems Servicing"></div>
+        <div class="info">
+          <h4>National Certificate II</h4>
+          <div class="iss">TESDA · Computer Systems Servicing</div>
+          <div class="date">Issued Aug 2023 · Valid to Aug 2028</div>
+        </div>
+      </div>
+      <div class="cert" data-full="images/cert-python.jpg" data-cap="Python Explorers: Navigating the Language · Asian College">
+        <div class="thumb"><img src="images/cert-python.jpg" alt="Python Explorers certificate of participation"></div>
+        <div class="info">
+          <h4>Python Explorers: Navigating the Language</h4>
+          <div class="iss">Asian College · Certificate of Participation</div>
+          <div class="date">May 4, 2024</div>
+        </div>
+      </div>
+      <div class="cert" data-full="images/cert-rwd.jpg" data-cap="Responsive Web Design V8 · freeCodeCamp">
+        <div class="thumb"><img src="images/cert-rwd.jpg" alt="freeCodeCamp Responsive Web Design certificate"></div>
+        <div class="info">
+          <h4>Responsive Web Design (V8)</h4>
+          <div class="iss">freeCodeCamp</div>
+          <div class="date">Feb 12, 2025</div>
+        </div>
+      </div>
+      <div class="cert" data-full="images/cert-jsalgo.jpg" data-cap="JavaScript Algorithms and Data Structures V8 · freeCodeCamp">
+        <div class="thumb"><img src="images/cert-jsalgo.jpg" alt="freeCodeCamp JavaScript Algorithms and Data Structures certificate"></div>
+        <div class="info">
+          <h4>JavaScript Algorithms & Data Structures (V8)</h4>
+          <div class="iss">freeCodeCamp</div>
+          <div class="date">Mar 30, 2025</div>
+        </div>
+      </div>
+      <div class="cert" data-full="images/cert-fedl.jpg" data-cap="Front-End Development Libraries V8 · freeCodeCamp">
+        <div class="thumb"><img src="images/cert-fedl.jpg" alt="freeCodeCamp Front-End Development Libraries certificate"></div>
+        <div class="info">
+          <h4>Front-End Development Libraries (V8)</h4>
+          <div class="iss">freeCodeCamp</div>
+          <div class="date">Apr 24, 2025</div>
+        </div>
+      </div>
+      <div class="cert" data-full="images/cert-php.jpg" data-cap="Introduction to PHP · Simplilearn SkillUp">
+        <div class="thumb"><img src="images/cert-php.jpg" alt="Simplilearn Introduction to PHP certificate"></div>
+        <div class="info">
+          <h4>Introduction to PHP</h4>
+          <div class="iss">Simplilearn SkillUp</div>
+          <div class="date">Apr 28, 2024</div>
+        </div>
+      </div>
+      <div class="cert" data-full="images/cert-cisco.jpg" data-cap="Networking Basics · Cisco Networking Academy">
+        <div class="thumb"><img src="images/cert-cisco.jpg" alt="Cisco Networking Academy Networking Basics certificate"></div>
+        <div class="info">
+          <h4>Networking Basics</h4>
+          <div class="iss">Cisco Networking Academy · DICT-ITU DTC Initiative</div>
+          <div class="date">Oct 15, 2025</div>
+        </div>
+      </div>
+      <div class="cert" data-full="images/cert-surfer.jpg" data-cap="Content Optimization Certification · Surfer — scored 85% or higher">
+        <div class="thumb"><img src="images/cert-surfer.jpg" alt="Surfer Content Optimization Certification"></div>
+        <div class="info">
+          <h4>Content Optimization Certification</h4>
+          <div class="iss">Surfer Academy · Scored 85%+ on final exam</div>
+          <div class="date">Issued Mar 19, 2025 · Valid to Mar 19, 2027</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lb-close" id="lbClose">✕</div>
+    <img id="lbImg" src="" alt="Certificate preview">
+    <div class="lb-cap" id="lbCap"></div>
+  </div>
+
+  <section id="resume" data-section>
+    <div class="node" id="node-resume"></div>
+    <div class="divider"><span class="chip">05 · Resume</span><span class="seg"></span></div>
+    <h2 class="section-title reveal">The full picture.</h2>
+    <div class="resume-box reveal">
+      <div>
+        <h3>Luwie E. Regaspi — Resume</h3>
+        <p>Education, skills, certifications, and objective in one document — updated and ready to share.</p>
+      </div>
+      <a href="documents/Luwie-Regaspi-Resume.pdf" class="btn btn-solid" download>Download PDF ↓</a>
+    </div>
+  </section>
+
+  <section id="blog" data-section>
+    <div class="node" id="node-blog"></div>
+    <div class="divider"><span class="chip">06 · Writing</span><span class="seg"></span></div>
+    <h2 class="section-title reveal">Notes as I learn.</h2>
+    <div class="blog-grid reveal">
+      <div class="post">
+        <div class="when">Draft</div>
+        <h4>What NC II Taught Me About Debugging</h4>
+        <p>How hardware troubleshooting habits carried over into how I approach fixing code.</p>
+      </div>
+      <div class="post">
+        <div class="when">Draft</div>
+        <h4>Responsive Design, One Breakpoint at a Time</h4>
+        <p>Notes from building my first fully responsive layout without a framework.</p>
+      </div>
+      <div class="post">
+        <div class="when">Draft</div>
+        <h4>Starting Data Structures in Python</h4>
+        <p>What clicked, what didn't, and the resources that actually helped.</p>
+      </div>
+    </div>
+    <p class="note reveal">These are draft post titles — publish your own whenever you're ready to write.</p>
+  </section>
+
+  <section id="contact" data-section>
+    <div class="node" id="node-contact"></div>
+    <div class="divider"><span class="chip">07 · Contact</span><span class="seg"></span></div>
+    <h2 class="section-title reveal">Let's work together.</h2>
+    <div class="contact-grid">
+      <form id="contactForm" name="contact">
+        <div class="field reveal">
+          <label>Name</label>
+          <div class="field-shell"><input type="text" name="name" placeholder="Your name" required></div>
+        </div>
+        <div class="field reveal">
+          <label>Email</label>
+          <div class="field-shell"><input type="email" name="email" placeholder="you@email.com" required></div>
+        </div>
+        <div class="field reveal">
+          <label>Message</label>
+          <div class="field-shell"><textarea rows="4" name="message" placeholder="What are you reaching out about?" required></textarea></div>
+        </div>
+        <button type="submit" class="btn btn-solid reveal" id="contactSubmit"><span class="btn-label">Send Message →</span></button>
+        <p id="contactStatus" class="contact-status" aria-live="polite"></p>
+      </form>
+      <div class="contact-info">
+        <div class="row reveal"><span class="lab">Email</span><a href="mailto:luregaspi1134@gmail.com">luregaspi1134@gmail.com</a></div>
+        <div class="row reveal"><span class="lab">Mobile</span><span>0956 035 6331 <span style="color:var(--muted);font-size:0.8em;">(Globe)</span></span></div>
+        <div class="row reveal"><span class="lab">Mobile</span><span>0961 548 9074 <span style="color:var(--muted);font-size:0.8em;">(Smart)</span></span></div>
+        <div class="row reveal"><span class="lab">Telephone</span><span>(035) 527 7556</span></div>
+        <div class="row reveal"><span class="lab">Location</span><span>Basac, Zamboanguita, Negros Oriental</span></div>
+        <div class="row reveal"><span class="lab">GitHub</span><a href="https://github.com/LuwieRegaspi11" target="_blank" rel="noopener">github.com/LuwieRegaspi11</a></div>
+        <div class="row reveal"><span class="lab">LinkedIn</span><a href="#">Add your LinkedIn link</a></div>
+        <div class="row reveal"><span class="lab">Instagram</span><a href="https://www.instagram.com/ruimaru.io/" target="_blank" rel="noopener">@ruimaru.io</a></div>
+        <div class="row reveal"><span class="lab">Facebook</span><a href="https://www.facebook.com/luwie.regaspi.73/" target="_blank" rel="noopener">facebook.com/luwie.regaspi.73</a></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <p>© 2023–2026 Luwie Regaspi</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-section], section').forEach(section=>{
+    section.querySelectorAll('.reveal').forEach((el, i)=>{
+      el.style.transitionDelay = Math.min(i * 60, 240) + 'ms';
+    });
+  });
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target);} });
+  },{threshold:0.15});
+  revealEls.forEach(el=>io.observe(el));
+
+  const traceFill = document.getElementById('traceFill');
+  const sections = document.querySelectorAll('[data-section]');
+  const nodes = {};
+  sections.forEach(s=>{ nodes[s.id] = document.getElementById('node-'+s.id); });
+
+  function positionNodes(){
+    // nodes are already correctly placed by CSS as the first child of
+    // their section (top:0 relative to that section) — no JS override needed.
+  }
+
+  function onScroll(){
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = Math.min(100, (scrollTop / docHeight) * 100);
+    traceFill.style.height = pct + '%';
+
+    sections.forEach(s=>{
+      const node = nodes[s.id];
+      if(!node) return;
+      const rect = s.getBoundingClientRect();
+      if(rect.top < window.innerHeight * 0.6){
+        node.classList.add('lit');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', onScroll);
+  window.addEventListener('load', ()=>{ positionNodes(); onScroll(); });
+  window.addEventListener('resize', positionNodes);
+
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lbImg');
+  const lbCap = document.getElementById('lbCap');
+  document.querySelectorAll('.cert[data-full], .proj-media[data-full]').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      lbImg.src = card.getAttribute('data-full');
+      lbCap.textContent = card.getAttribute('data-cap') || '';
+      lightbox.classList.add('open');
+    });
+  });
+  function closeLightbox(){ lightbox.classList.remove('open'); }
+  document.getElementById('lbClose').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e)=>{ if(e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeLightbox(); });
+
+  const root = document.documentElement;
+  const themeToggle = document.getElementById('themeToggle');
+  const themeThumb = document.getElementById('themeThumb');
+
+  function applyTheme(theme){
+    root.setAttribute('data-theme', theme);
+    themeThumb.textContent = theme === 'dark' ? '🌙' : '☀';
+    themeToggle.setAttribute('aria-pressed', theme === 'dark');
+  }
+  let savedTheme = null;
+  try { savedTheme = localStorage.getItem('luwie-theme'); } catch(e){}
+  const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(savedTheme || (systemPrefersDark ? 'dark' : 'light'));
+
+  themeToggle.addEventListener('click', ()=>{
+    const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    try { localStorage.setItem('luwie-theme', next); } catch(e){}
+  });
+
+  function addRipple(el){
+    el.addEventListener('click', function(e){
+      const rect = this.getBoundingClientRect();
+      const size = Math.max(rect.width, rect.height) * 1.4;
+      const ripple = document.createElement('span');
+      ripple.className = 'ripple-el';
+      ripple.style.width = ripple.style.height = size + 'px';
+      const x = (e.clientX ?? rect.left + rect.width/2) - rect.left - size/2;
+      const y = (e.clientY ?? rect.top + rect.height/2) - rect.top - size/2;
+      ripple.style.left = x + 'px';
+      ripple.style.top = y + 'px';
+      this.appendChild(ripple);
+      setTimeout(()=> ripple.remove(), 650);
+    });
+  }
+  document.querySelectorAll('.btn, .proj-body .plink').forEach(addRipple);
+
+  const contactForm = document.getElementById('contactForm');
+  const contactStatus = document.getElementById('contactStatus');
+  const contactSubmit = document.getElementById('contactSubmit');
+  // GitHub Pages serves static files only — there's no backend to receive a POST,
+  // so this opens the visitor's email client pre-filled with their message instead.
+  if(contactForm){
+    contactForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = contactForm.elements['name'].value;
+      const email = contactForm.elements['email'].value;
+      const message = contactForm.elements['message'].value;
+
+      const subject = encodeURIComponent('Portfolio contact from ' + name);
+      const body = encodeURIComponent(message + '\n\n— ' + name + ' (' + email + ')');
+      window.location.href = 'mailto:luregaspi1134@gmail.com?subject=' + subject + '&body=' + body;
+
+      contactStatus.textContent = "Opening your email app to send this — if nothing happens, email me directly at luregaspi1134@gmail.com";
+      contactStatus.className = 'contact-status show ok';
+    });
+  }
+</script>
+
+</body>
+</html>
